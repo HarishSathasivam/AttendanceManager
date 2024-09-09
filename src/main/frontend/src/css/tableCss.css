@@ -1,0 +1,170 @@
+.pagination-controls {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-controls button, 
+.pagination-controls select {
+    margin-right: 5px;
+}
+
+.table th {
+    cursor: pointer;
+}
+
+.table th span {
+    margin-left: 5px;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.table {
+    position: relative;
+    left:160px;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid white;
+}
+
+.table th {
+    background-color: #4d4d4d;
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+
+
+/* Search input */
+.form-control {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Pagination controls */
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pagination-controls button, .pagination-controls select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.pagination-controls select {
+    width: 100px;
+    background-color: white;
+    color: #007bff;
+}
+
+.pagination-controls span {
+    font-size: 14px;
+}
+
+/* PDF generation button */
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .pagination-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .pagination-controls button, .pagination-controls select {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+
+.row-short-duration {
+    background-color: #e2636f; /* Slightly lighter red for rows */
+    color: #0f0e0e; /* Dark red text */
+    font-size: large;
+}
+
+
+#SummaryTr{
+    background-color: #4d4d4d;
+    color: white;
+    font-weight: bold;
+}
+
+.mb-4{
+   
+    margin-bottom: 5px;
+    position: relative;
+    width: 110%;
+    margin:  20px auto  30px auto;
+}
+
+
+.row-highlight-relogin {
+    background-color: #f4eeb3; 
+}
+
+.row-highlight-notLoggedOut {
+    background-color: #f48080; 
+}
+
+.row-short-duration {
+    background-color: #929592; 
+}
+

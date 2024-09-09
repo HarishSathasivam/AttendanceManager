@@ -1,0 +1,177 @@
+
+html{
+    background-color:#c3cdce;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
+    top:0px;
+    left:0px;
+}
+
+.App{
+    background-color:#c3cdce;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
+    top:0px;
+    left:0px;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.welcome-container h1 {
+    margin-bottom: 20px;
+}
+
+.welcome-container button {
+    margin-top: 20px;
+}
+
+.logInformContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logInform {
+    top:294px;
+    position: relative;
+    width: 875px;
+    height: 456px;
+    text-align: center;
+    align-items: center; /* This property is not effective here and can be removed */
+    background-image: url('http://localhost:8080/AttendanceManager/static/media/nusyn_login_ui_bg.png');
+    background-repeat: no-repeat; /* Corrected the typo 'no-repet' */
+    background-size: cover; /* This ensures the background image covers the whole container */
+}
+
+.UserName{
+    position: absolute;
+    top: 113px;
+    left: 47px;
+    height: 40px;
+    width: 364px;
+}
+
+.password{
+    position: absolute;
+    left: 458px;
+    position: absolute;
+    top: 113px;
+    height: 40px;
+    width: 364px;
+
+}
+
+.logInBtn{
+    position: absolute;
+    top: 200px;
+    left: 399px;
+    height: 30px;
+    width: 75px;
+    background-color: #333b3c;
+    color: #bebcbc;
+
+}
+
+
+.logout{
+    position: relative;
+    left: 0px;
+    height: 30px;
+    top:10px;
+    background-color: #767676;
+        left: 1800px;
+
+}
+
+.navBtn{
+    padding: 6px;
+    margin: 6px;
+    background-color: #959798;
+}
+
+.PDFbtn{
+    padding: 6px;
+    margin: 6px;
+    background-color: #959798;
+}
+.paginationBtn{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 283px;
+    flex-direction: row;
+    align-items: baseline
+}
+
+.addUser{
+    background-color:#c3cdce;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
+    top:0px;
+    left:0px;
+}
+
+.modules{
+    position: absolute;
+    top: 244px;
+    left: 800px;
+
+}
+
+.addUserIcon{
+    position: relative;
+    top: -165px;
+    left: 238px;
+}
+
+.backBtn,
+.deleteBtn,
+.editBtn {
+    position: relative;
+    left: 0px;
+    height: 30px;
+    top: 10px;
+    background-color: #767676;
+    margin: 5px;
+}
+
+
+.addUserBtn{
+    position: relative;
+    left: 10px;
+    height: 30px;
+    top:0px;
+    background-color: #767676;
+}
+
+.errorTxt{
+    position: relative;
+    color: red;
+    top:170px;
+}
+
+.date-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f8f9fa; /* Optional: Add a light background color */
+    padding: 10px;
+}
+
+
